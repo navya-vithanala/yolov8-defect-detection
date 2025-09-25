@@ -23,4 +23,3 @@ This project implemented a **real-time defect detection system** for industrial 
 - Quality control in manufacturing
 - Real-time monitoring systems
 
-⚠️ **Note:** Due to dataset privacy, code and images are not included. Documentation reflects design & outcomes.
