@@ -1,21 +1,26 @@
 # YOLOv8 Defect Detection
-<<<<<<< HEAD
 
-## Overview
-Designed and deployed a real-time defect detection system that achieved **92% precision** on 1,200 samples. Built using PyTorch and OpenCV for industrial-grade vision pipelines.  
+## 📌 Overview
+This project implemented a **real-time defect detection system** for industrial pipelines using **YOLOv8**. The system reached **92% precision** on 1,200 samples.
 
-## Tech Stack
-- Python  
-- PyTorch, OpenCV  
-- YOLOv8  
+## ⚙️ Tech Stack
+- Python, PyTorch, OpenCV
+- GPU acceleration with CUDA
+- YOLOv8 model from Ultralytics
 
-## Features
-- Real-time defect detection in images/videos  
-- High precision with optimized model training  
-- Augmentation and validation to reduce overfitting  
+## 🧠 Methodology
+1. Image dataset collection and annotation
+2. Preprocessing (normalization, augmentation)
+3. YOLOv8 training with industrial defect dataset
+4. Real-time inference pipeline via OpenCV
 
-## Results
-- 92% precision on dataset of 1,200 samples  
-- Deployment-ready inference pipeline  
-=======
->>>>>>> f11ec07 (Initial commit - YOLOv8 Defect Detection)
+## 📊 Results
+- **92% precision** on validation dataset
+- Inference speed ~25 FPS on GPU
+- Transferable to new defect types with minimal retraining
+
+## 🌟 Applications
+- Quality control in manufacturing
+- Real-time monitoring systems
+
+⚠️ **Note:** Due to dataset privacy, code and images are not included. Documentation reflects design & outcomes.
